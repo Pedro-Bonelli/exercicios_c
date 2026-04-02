@@ -1,20 +1,7 @@
-//  Escreva um programa para calcular e imprimir o número de lâmpadas necessárias para iluminar um determinado cômodo de uma residência. Dados de entrada: a potência da lâmpada utilizada (em watts), as dimensões (largura e comprimento, em metros) do cômodo. Considere que a potência necessária é de 18 watts por metro quadrado.
+// Escreva um programa para ler as dimensões de uma cozinha retangular (comprimento, largura e altura), calcular e escrever a quantidade de caixas de azulejos para se colocar em todas as suas paredes (considere que não será descontada a área ocupada por portas e janelas). Cada caixa de azulejos possui 1.5 m2. 
 
 #include <stdio.h>
 
 int main(){
-    float pot_lamp, larg, comp, num_lamp;
-
-    printf("Digite a potencia da lampada: ");
-    scanf("%f", &pot_lamp);
-
-    printf("Digite a largura do quarto: ");
-    scanf("%f", &larg);
-
-    printf("Digite o comprimento do quarto: ");
-    scanf("%f", &comp);
-
-    num_lamp = (((larg * comp) * 18) / pot_lamp);
-
-    printf("O número de lampadas necessario é: %.0f", num_lamp);
-}   
+    
+}
